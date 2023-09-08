@@ -1,0 +1,7 @@
+
+.user-list {
+    display: flex;
+    background: #EEF0F8;
+    height: 100vh;
+    padding-top: 20vh;
+}

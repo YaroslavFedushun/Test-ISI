@@ -1,0 +1,39 @@
+:root {
+    --main-gray-color: #A4A4B5;
+}
+
+.action {
+    padding: 1vw;
+    position: absolute;
+    top: 10vh;
+    right: 30vw;
+}
+
+
+
+td {
+    padding: 0 10px;
+}
+
+.table {
+    width: 70vw;
+    padding: 0 2vw;
+}
+
+.table-head {
+    color: #A4A4B5;
+    text-transform: uppercase;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: #fff;
+    height: 55px;
+}
+
+.table-body {
+    font: normal 13px/16px Helvetica;
+}
+
+.table-body-row {
+    height: 55px;
+    background: #F4F5F8;
+    border-bottom: 1px solid #fff;
+}

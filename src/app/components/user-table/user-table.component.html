@@ -1,0 +1,24 @@
+
+<div class="action">
+  <button class="main-btn" [routerLink]="'/add'">Create User</button>
+</div>
+<table  cellspacing="0" cellpadding="0" class="table table-hover" >
+    <thead class="table-head">
+        <tr>
+            <td>Username</td>
+            <td>First name</td>
+            <td>Last name</td>
+            <td>Email</td>
+            <td>Type</td>
+        </tr>
+    </thead>
+    <tbody class="table-body">
+        <tr class="table-body-row" *ngFor="let user of users" [routerLink]="'/edit/'+ user.username">
+            <td>{{user.username}}</td>
+            <td>{{user.first_name}}</td>
+            <td>{{user.last_name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.user_type}}</td>
+        </tr>
+    </tbody>
+</table> 

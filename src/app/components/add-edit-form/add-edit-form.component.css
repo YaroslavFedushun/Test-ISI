@@ -1,0 +1,45 @@
+:host {
+    padding: 2vw;
+    background: white;
+    height: fit-content;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    width: 25vw;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    min-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background: #F3F6F9 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.invalid-feedback {
+    color: red;
+    margin: 0 auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+
+}
+  
+  
+.delete {
+    background: red;
+}
